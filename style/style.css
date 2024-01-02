@@ -2,26 +2,93 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
     text-align: center;
-    background-color: rgb(255, 194, 133);
+    background-color: rgb(49, 49, 49);
     color: rgb(248, 248, 248);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-
-ul{
-    list-style: none;
-}
-
-h3{
-    background-color: rgb(255, 153, 51);
-    border:azure,5px;
-}
-
-p,li{
-    background-color: rgb(255, 167, 78); 
-}
-h1{
-    background-color:rgb(255, 87, 140);
-    
+.nav{
+    display: inline;
 }
 .mak{
     background-color: transparent;
+    list-style: none;
+    display: inline;
+}
+.images{
+    background-color: lightblue;
+    width: 1000px;
+    height: auto;
+}
+.link{
+    display: inline-block;
+    width: 200px;
+    height: auto;
+    border: 8px solid whitesmoke;
+    margin: 20px 30px;
+    padding: 20px;
+    background-color: #807171;
+    text-decoration: none;
+}
+.title{
+    padding: 20px;
+    background-color: #202020;
+    border: 8px solid #b4b4b4;
+    width: 1000px;
+    margin: 20px auto;
+
+}
+.Description{
+    padding: 20px;
+    width: 1000px;
+    margin: 20px auto;
+    background-color: #425140;
+}
+.Description h3{
+    background-color: rgb(100, 119, 91);
+}
+.Description p{
+    background-color: #658e6a;
+    list-style: none;
+    text-align: left;
+    padding: 10px 50px;
+}
+.Ingredients{
+    padding: 20px;
+    width: 1000px;
+    margin: 20px auto;
+    background-color: #224752;
+}
+.Ingredients h3{
+    background-color: rgb(40, 96, 107);
+}
+.Ingredients ul{
+    padding: 10px;
+    background-color: #597a83;
+}
+.Ingredients li{
+    background-color: #597a83;
+    list-style:inside;
+    text-align: left;
+    padding: 0px 50px;
+}
+.Steps{
+    padding: 20px;
+    width: 1000px;
+    margin: 20px auto;
+    background-color: #4b2626;
+}
+.Steps h3{
+    background-color: #702b2b;
+}
+.Steps ol{
+    padding: 10px;
+    background-color: #914551;
+}
+.Steps li{
+    background-color: #914551;
+    list-style: inside decimal;
+    text-align: left;
+    padding: 0px 50px;
 }
